@@ -97,9 +97,10 @@ a {
 }
 
 .container {
+    z-index: 4;
     width: 100%;
-    padding: 0 15px;
     margin: 0 auto;
+    padding: 0 15px;
     position: relative;
 
 }
@@ -107,8 +108,7 @@ a {
 @media (min-width: 768px) {
 
     .container {
-        width: 648px;
-        padding: 0;
+        padding: 0 25px;
     }
 
 }
@@ -116,7 +116,7 @@ a {
 @media (min-width: 1024px) {
 
     .container {
-        width: 864px;
+        padding: 0 50px;
     }
 
 }
@@ -124,7 +124,7 @@ a {
 @media (min-width: 1280px) {
 
     .container {
-        width: 1080px;
+        padding: 0 80px;
     }
 
 }
@@ -132,7 +132,7 @@ a {
 @media (min-width: 1400px) {
 
     .container {
-        width: 1240px;
+        padding: 0 120px;
     }
 
 }
@@ -140,6 +140,8 @@ a {
 
 @media (min-width: 1600px) {
 
-    
+    .container {
+        width: 1440px;
+    }
 
 }
