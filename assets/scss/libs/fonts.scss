@@ -1,10 +1,60 @@
 @font-face {
-  font-family: 'Cormorant Garamond';
-  src: url('../fonts/Garamond/CormorantGaramond-LightItalic.eot');
-  src: url('../fonts/Garamond/CormorantGaramond-LightItalic.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/Garamond/CormorantGaramond-LightItalic.woff2') format('woff2'),
-  url('../fonts/Garamond/CormorantGaramond-LightItalic.woff') format('woff'),
-  url('../fonts/Garamond/CormorantGaramond-LightItalic.svg#CormorantGaramond-LightItalic') format('svg');
-  font-weight: 300;
-  font-style: italic;
+  font-family: 'AvenirNext-Bold';
+  src: url('../fonts/AvenirNext-Bold.eot');
+  src: url('../fonts/AvenirNext-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/AvenirNext-Bold.svg#AvenirNext-Bold') format('svg'),
+       url('../fonts/AvenirNext-Bold.ttf') format('truetype'),
+       url('../fonts/AvenirNext-Bold.woff') format('woff'),
+       url('../fonts/AvenirNext-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: 'AvenirNext-DemiBold';
+  src: url('../fonts/AvenirNext-DemiBold.eot');
+  src: url('../fonts/AvenirNext-DemiBold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/AvenirNext-DemiBold.svg#AvenirNext-DemiBold') format('svg'),
+       url('../fonts/AvenirNext-DemiBold.ttf') format('truetype'),
+       url('../fonts/AvenirNext-DemiBold.woff') format('woff'),
+       url('../fonts/AvenirNext-DemiBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNext-Heavy';
+  src: url('../fonts/AvenirNext-Heavy.eot');
+  src: url('../fonts/AvenirNext-Heavy.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/AvenirNext-Heavy.svg#AvenirNext-Heavy') format('svg'),
+       url('../fonts/AvenirNext-Heavy.ttf') format('truetype'),
+       url('../fonts/AvenirNext-Heavy.woff') format('woff'),
+       url('../fonts/AvenirNext-Heavy.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNext-Medium';
+  src: url('../fonts/AvenirNext-Medium.eot');
+  src: url('../fonts/AvenirNext-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/AvenirNext-Medium.svg#AvenirNext-Medium') format('svg'),
+       url('../fonts/AvenirNext-Medium.ttf') format('truetype'),
+       url('../fonts/AvenirNext-Medium.woff') format('woff'),
+       url('../fonts/AvenirNext-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNext-Regular';
+  src: url('../fonts/AvenirNext-Regular.eot');
+  src: url('../fonts/AvenirNext-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/AvenirNext-Regular.svg#AvenirNext-Regular') format('svg'),
+       url('../fonts/AvenirNext-Regular.ttf') format('truetype'),
+       url('../fonts/AvenirNext-Regular.woff') format('woff'),
+       url('../fonts/AvenirNext-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

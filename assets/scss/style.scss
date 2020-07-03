@@ -1,9 +1,7 @@
-@import "libs/button";
+@import "libs/fontello";
+@import "libs/fonts";
 @import "libs/header";
 @import "libs/footer";
-@import "libs/fonts";
-@import "libs/fontello";
-@import 'libs/normalize';
 
 body {
     min-height: 100vh;
@@ -25,10 +23,11 @@ html {
     list-style: none;
     outline: none;
     text-decoration: none;
+    font-family: 'AvenirNext-Regular';
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
     -webkit-tap-highlight-color: transparent;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -96,6 +95,10 @@ a {
     cursor: pointer;
 }
 
+.wrapper{
+    overflow: hidden;
+}
+
 .container {
     z-index: 4;
     width: 100%;
@@ -141,6 +144,7 @@ a {
 @media (min-width: 1600px) {
 
     .container {
+        padding: 0;
         width: 1440px;
     }
 
