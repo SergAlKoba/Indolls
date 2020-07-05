@@ -168,4 +168,13 @@ $(document).ready(function(){
         ]
     });
 
+    var rellax = new Rellax('.circles', {
+        speed: -2,
+        center: false,
+        wrapper: null,
+        round: true,
+        vertical: true,
+        horizontal: false
+      });
+
 });

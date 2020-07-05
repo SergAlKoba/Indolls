@@ -13,31 +13,67 @@
 
 <body>
   <!-- Header -->
-  <header class="header">
+  <div class="popup popup-contact">
+    <span class="close-popup"></span>
+    <div class="popup-content">
+        <h3>Оставьте Ваши контакты</h3>
+        <p>И мы свяжемся с Вами </p>
+        <form>
+            <input type="text" placeholder="Имя">
+            <input type="text" placeholder="Телефон">
+            <input type="text" placeholder="E-mail">
+            <button>Отправить</button>
+        </form>
+    </div>
+</div>
+
+<header class="header">
     <div class="container">
         <div class="header-content">
             <a href="#top" class="logo"><img src="img/logo.png" alt=""></a>
             <div class="header-right">
                 <nav>
                     <ul>
-                        <li class="active"><a href="javascript:void(0)">Наши услуги</a></li>
-                        <li><a href="javascript:void(0)">Наши персонажи и цены</a></li>
-                        <li><a href="javascript:void(0)">Портфолио</a></li>
-                        <li><a href="javascript:void(0)">Отзывы</a></li>
+                        <li><a href="#services">Наши услуги</a></li>
+                        <li><a href="#our-characters">Наши персонажи и цены</a></li>
+                        <li><a href="#portfolio">Портфолио</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
                     </ul>
                 </nav>
-                <span class="open-menu"><i class="icon-menu-2-line"></i>Меню</span>
+                <div class="open-menu"><i class="icon-menu-2-line"></i>Меню
+                    <ul>
+                        <li><a href="#services">Наши услуги</a></li>
+                        <li><a href="#our-characters">Наши персонажи и цены</a></li>
+                        <li><a href="#portfolio">Портфолио</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                    </ul>
+                </div>
                 <a href="tel:+79020604004" class="tel"><i class="icon-phone-line"></i>+79020604004</a>
                 <a href="javascript:void(0)" class="call call_js">Заказать звонок</a>
             </div>
         </div>
     </div>
+    <div class="mobile-menu">
+        <div class="header-mobile-menu">
+            <span class="delete"></span>
+            <a href="tel:+79020604004" class="tel-mobile"><i class="icon-phone-line"></i>+79020604004</a>
+        </div>
+        <ul>
+            <li><a href="#services">Наши услуги</a></li>
+            <li><a href="#our-characters">Наши персонажи и цены</a></li>
+            <li><a href="#portfolio">Портфолио</a></li>
+        </ul>
+    </div>
 </header>
 
    <!-- Основной контент -->
-  <section class="wrapper">
+  <section id="wrapper" class="wrapper">
 
     <section class="banner-mobile">
+      <span class="circles circles1"></span>
+      <span class="circles circles2"></span>
+      <span class="circles circles3"></span>
+      <span class="circles circles4"></span>
       <div class="container">
         <h2>Ростовые куклы ждут тебя!</h2>
       </div>
@@ -51,6 +87,15 @@
     </section>
 
     <section class="banner">
+      <span class="circles1"></span>
+      <span data-rellax-speed="2" class="circles circles2"></span>
+      <span data-rellax-speed="1" class="circles circles3"></span>
+      <span data-rellax-percentage="0.5" class="circles circles4"></span>
+      <span data-rellax-speed="1" class="circles circles5"></span>
+      <span data-rellax-percentage="0.5" class="circles circles6"></span>
+      <span data-rellax-speed="1" class="circles circles7"></span>
+      <span data-rellax-percentage="0.5" class="circles circles8"></span>
+      <span data-rellax-speed="1" class="circles circles9"></span>
       <div class="banner-slider">
         <div>
           <div class="container">
@@ -115,7 +160,13 @@
       </div>
     </section>
 
-    <section class="services">
+    <section id="services" class="services">
+      <span data-rellax-speed="1" class="circles circles1"></span>
+      <span data-rellax-percentage="0.5" class="circles circles2"></span>
+      <span data-rellax-speed="1" class="circles circles3"></span>
+      <span data-rellax-percentage="0.5" class="circles circles4"></span>
+      <span data-rellax-speed="1" class="circles circles5"></span>
+      <span data-rellax-percentage="0.5" class="circles circles6"></span>
       <div class="container">
         <div class="title">
           <h2>Какие услыги мы предлогаем?</h2>
@@ -176,7 +227,7 @@
                     все внимание на себе.</p>
                   <ul class="sum">
                     <li><strong>22 900 <i>₽</i></strong></li>
-                    <li><a href="javascript:void(0)">Заказать</a></li>
+                    <li><a class="order_js" href="javascript:void(0)">Заказать</a></li>
                   </ul>
                   <ul class="advantages">
                     <li><i class="icon-clapping"></i>Яркие эмоции</li>
@@ -232,7 +283,7 @@
                     все внимание на себе.</p>
                   <ul class="sum">
                     <li><strong>22 900 <i>₽</i></strong></li>
-                    <li><a href="javascript:void(0)">Заказать</a></li>
+                    <li><a class="order_js" href="javascript:void(0)">Заказать</a></li>
                   </ul>
                   <ul class="advantages">
                     <li><i class="icon-clapping"></i>Яркие эмоции</li>
@@ -288,7 +339,7 @@
                     все внимание на себе.</p>
                   <ul class="sum">
                     <li><strong>22 900 <i>₽</i></strong></li>
-                    <li><a href="javascript:void(0)">Заказать</a></li>
+                    <li><a class="order_js" href="javascript:void(0)">Заказать</a></li>
                   </ul>
                   <ul class="advantages">
                     <li><i class="icon-clapping"></i>Яркие эмоции</li>
@@ -344,7 +395,7 @@
                     все внимание на себе.</p>
                   <ul class="sum">
                     <li><strong>22 900 <i>₽</i></strong></li>
-                    <li><a href="javascript:void(0)">Заказать</a></li>
+                    <li><a class="order_js" href="javascript:void(0)">Заказать</a></li>
                   </ul>
                   <ul class="advantages">
                     <li><i class="icon-clapping"></i>Яркие эмоции</li>
@@ -400,7 +451,7 @@
                     все внимание на себе.</p>
                   <ul class="sum">
                     <li><strong>22 900 <i>₽</i></strong></li>
-                    <li><a href="javascript:void(0)">Заказать</a></li>
+                    <li><a class="order_js" href="javascript:void(0)">Заказать</a></li>
                   </ul>
                   <ul class="advantages">
                     <li><i class="icon-clapping"></i>Яркие эмоции</li>
@@ -414,7 +465,18 @@
       </div>
     </section>
 
-    <section class="our-characters">
+    <section id="our-characters" class="our-characters">
+      <span data-rellax-percentage="0.5" class="circles circles1"></span>
+      <span data-rellax-speed="1" class="circles circles2"></span>
+      <span data-rellax-percentage="0.5" class="circles circles3"></span>
+      <span data-rellax-speed="1" class="circles circles4"></span>
+      <span data-rellax-percentage="0.5" class="circles circles5"></span>
+      <span data-rellax-speed="1" class="circles circles6"></span>
+      <span data-rellax-percentage="0.5" class="circles circles7"></span>
+      <span data-rellax-speed="1" class="circles circles8"></span>
+      <span data-rellax-percentage="0.5" class="circles circles9"></span>
+      <span data-rellax-speed="1" class="circles circles10"></span>
+      <span data-rellax-percentage="0.5" class="circles circles11"></span>
       <div class="container">
         <div class="title">
           <h2>Наши персонажи и цены</h2>
@@ -492,7 +554,14 @@
       </div>
     </section>
 
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio">
+      <span data-rellax-percentage="0.5" class="circles circles1"></span>
+      <span data-rellax-speed="1" class="circles circles2"></span>
+      <span data-rellax-percentage="0.5" class="circles circles3"></span>
+      <span data-rellax-speed="1" class="circles circles4"></span>
+      <span data-rellax-percentage="0.5" class="circles circles5"></span>
+      <span data-rellax-speed="1" class="circles circles6"></span>
+      <span data-rellax-percentage="0.5" class="circles circles7"></span>
       <div class="container">
         <div class="title">
           <h2>Наше портфолио</h2>
@@ -582,9 +651,16 @@
           </div>
         </div>
       </div>
+      <span data-rellax-speed="1" class="circles circles1"></span>
+      <span data-rellax-percentage="0.5" class="circles circles2"></span>
+      <span data-rellax-speed="1" class="circles circles3"></span>
+      <span data-rellax-percentage="0.5" class="circles circles4"></span>
+      <span data-rellax-speed="1" class="circles circles5"></span>
+      <span data-rellax-percentage="0.5" class="circles circles6"></span>
+      <span data-rellax-speed="1" class="circles circles7"></span>
     </section>
 
-    <section class="reviews">
+    <section id="reviews" class="reviews">
       <div class="container">
         <div class="title">
           <h2>Отзывы наших клиентов</h2>
@@ -677,6 +753,14 @@
           </div>
         </div>
       </div>
+      <span data-rellax-percentage="0.5" class="circles circles1"></span>
+      <span data-rellax-speed="1" class="circles circles2"></span>
+      <span data-rellax-percentage="0.5" class="circles circles3"></span>
+      <span data-rellax-speed="1" class="circles circles4"></span>
+      <span data-rellax-percentage="0.5" class="circles circles5"></span>
+      <span data-rellax-speed="1" class="circles circles6"></span>
+      <span data-rellax-percentage="0.5" class="circles circles7"></span>
+      <span data-rellax-speed="1" class="circles circles8"></span>
     </section>
 
     <section class="contact">
@@ -703,24 +787,67 @@
           </div>
         </div>
       </div>
+      <span data-rellax-speed="1" class="circles circles1"></span>
+      <span data-rellax-speed="1" class="circles circles2"></span>
+      <span data-rellax-percentage="0.5" class="circles circles3"></span>
+      <span data-rellax-speed="1" class="circles circles4"></span>
+      <span data-rellax-percentage="0.5" class="circles circles5"></span>
+      <span data-rellax-speed="1" class="circles circles6"></span>
     </section>
 
   </section>
 
   <!-- Footer -->
   <footer class="footer">
+    <span class="circles1"></span>
     <div class="container">
         <div class="footer-top">
-            <a href="tel:+79020604004"><i class="icon-phone-line"></i>+79020604004</a>
-            <a href="javascript:void(0)" class="call call_js">Заказать звонок</a>
+            <a class="tel" href="tel:+79020604004"><i class="icon-phone-line"></i>+79020604004</a>
+            <div class="top-content">
+                <a href="javascript:void(0)" class="call call_js">Заказать звонок</a>
+                <ul>
+                    <li><a href="javascript:void(0)"><i class="icon-facebook"></i></a></li>
+                    <li><a href="javascript:void(0)"><i class="icon-twitter"></i></a></li>
+                    <li><a href="javascript:void(0)"><i class="icon-instagram"></i></a></li>
+                    <li><a href="javascript:void(0)"><i class="icon-internet"></i></a></li>
+                </ul>
+                <a class="mail" href="mailto:indolls.info@gmail.com"><i class="icon-mail"></i>indolls.info@gmail.com</a>
+                <span class="site"><i class="icon-global"></i> Сайт: <a href="javascript:void(0)">in-dolls.ru</a></span>
+            </div>
+        </div>
+        <div class="footer-content">
+            <div class="logo">
+                <a href="javascript:void(0)"><img src="img/logo-footer.png" alt=""></a>
+                <span>Лучшие ростовые куклы</span>
+            </div>
+            <div class="footer-menu">
+                <div>
+                    <h4>Меню</h4>
+                    <ul>
+                        <li><a href="#services">Наши услуги</a></li>
+                        <li><a href="#our-characters">Наши персонажи и цены</a></li>
+                        <li><a href="#portfolio">Портфолио</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>График работы</h4>
+                    <strong>Пн. - Вс. : с 8 до 18.00</strong>
+                    <p>Мы работаем каждый день и с радостью ждем Ваших звонков</p>
+                </div>
+                <div>
+                    <h4>Контакты</h4>
+                    <p>Россия Приморский край Владивостокул. Калинина 275В, 4 этаж</p>
+                    <span>Skype: <a href="javascript:void(0)">Dkorvl</a></span>
+                </div>
+            </div>
+        </div>
+        <div class="copying">
+            <p>2020 Все материалы данного сайта являются объектами авторского права. Копирование запрещено.</p>
             <ul>
-                <li><a href="javascript:void(0)"><i class="icon-facebook"></i></a></li>
-                <li><a href="javascript:void(0)"><i class="icon-twitter"></i></a></li>
-                <li><a href="javascript:void(0)"><i class="icon-instagram"></i></a></li>
-                <li><a href="javascript:void(0)"><i class="icon-internet"></i></a></li>
+                <li><a target="_blank" href="javascript:void(0)">Политика конфиденциальности</a></li>
+                <li><span>Разработка сайта: </span><a target="_blank" href="javascript:void(0)">In-dolls</a></li>
             </ul>
-            <a class="mail" href="mailto:indolls.info@gmail.com"><i class="icon-mail"></i>indolls.info@gmail.com</a>
-            <span class="site"><i class="icon-global"></i> Сайт: <a href="javascript:void(0)">in-dolls.ru</a></span>
         </div>
     </div>
 </footer>
@@ -729,6 +856,7 @@
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/jquery.matchHeight.min.js"></script>
   <script src="js/slick.min.js"></script>
+  <script src="js/rellax.min.js"></script>
   <script src="js/script.min.js"></script>
   <script src="js/home.min.js"></script>
 
