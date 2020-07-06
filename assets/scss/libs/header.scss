@@ -383,6 +383,26 @@ header{
         &::after {
             opacity: 0;
         }
+        .open-menu{
+            color: #ffffff;
+            i{
+                color: #ffffff;
+            }
+        }
+        .tel {
+            color: #ffffff;
+            i{
+                color: #ffffff;
+            }
+        }
+        .call {
+            color: #ffffff;
+            border: 2px solid #ffffff;
+            &:hover{
+                color: #ff962c;
+                background: #fff;
+            }
+        }
     }
 
 }
@@ -432,6 +452,11 @@ header{
                         display: inline-block;
                         font-family: 'AvenirNext-Medium';
                         transition: all 0.5s;
+                        &:hover{
+                            &::after{
+                                transform: translate(-50%, 0) scale(1);
+                            }
+                        }
                         &::after{
                             content: '';
                             left: 50%;
@@ -461,6 +486,21 @@ header{
     }
 
     .header.active{
+        nav{
+            ul{
+                li{
+                    a{
+                        color: #fff;
+                        &::after{
+                            background: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .header.active2{
         nav{
             ul{
                 li{

@@ -1,5 +1,27 @@
 @import "libs/slick";
 
+@-webkit-keyframes anim-banner{
+    0%, 100%{
+        -webkit-transform:translate(0, 20px);
+        transform:translate(0, 20px);
+    }
+    50%{
+        -webkit-transform:translate(0, -20px);
+        transform:translate(0, -20px);
+    }
+  }
+  
+  @keyframes anim-banner{
+    0%, 100%{
+        -webkit-transform:translate(0, 20px);
+        transform:translate(0, 20px);
+    }
+    50%{
+        -webkit-transform:translate(0, -20px);
+        transform:translate(0, -20px);
+    }
+  }
+
 .banner-mobile{
     padding: 106px 0 0;
     position: relative;
@@ -1106,6 +1128,7 @@
                         width: 100%;
                         position: relative;
                         margin-bottom: 120px;
+                        animation: anim-banner 2.5s infinite ease-in-out;
                     }
                 }
             }
@@ -2223,10 +2246,18 @@
             .characters-item{
                 width: 31.33%;
                 margin: 0 1% 60px;
+                &:hover{
+                    .img {
+                        .characters {
+                            transform: scale(1.1);
+                        }    
+                    }
+                }
                 .img {
                     .characters {
                         height: 408px;
                         display: block;
+                        transition: all 0.5s;
                     }
                 }
             }
@@ -2887,6 +2918,7 @@
             top: -38px;
             width: 110px;
             height: 110px;
+            display: none;
             box-shadow: 0 17px 39px 1px rgba(237, 154, 0, 0.4);
             background-color: #ff962c;
             background-image: linear-gradient(-225deg, #ffa019 0%, #feb117 100%);
@@ -3190,6 +3222,9 @@
     }
 
     .reality-dolls {
+        .circles7{
+            display: none;
+        }
         .reality-dolls-content {
             padding: 274px 0 280px;
             .text {
@@ -3230,6 +3265,9 @@
 
     .reviews {
         padding: 138px 0 147px;
+        .circles2{
+            display: block;
+        }
         .title {
             margin-bottom: 87px;
             h2 {
