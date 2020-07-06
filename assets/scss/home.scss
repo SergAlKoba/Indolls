@@ -220,14 +220,14 @@
                 align-items: center;
                 justify-content: center;
                 font-family: 'AvenirNext-Medium'; 
-                background-color: rgba(49, 81, 99, 0.2);
+                background-color: rgba(255, 168, 24, 0.2);
                 transition: all 0.5s;
             }
         }
         li.active{
             a{
                 color: #ffffff;
-                background-color: rgba(49, 81, 99, 1);
+                background-color: #ffa818;
             }
         }
     }
