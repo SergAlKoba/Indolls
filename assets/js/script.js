@@ -8,6 +8,8 @@ $(document).ready(function(){
 
     $('.close-popup').on('click', function(){
         $('.popup-contact').fadeOut(500);
+        $('.popup-service').fadeOut(500);
+        $('.popup-popup-thank').fadeOut(500);
     });
 
     $('.call_js').on('click', function(){
@@ -15,7 +17,9 @@ $(document).ready(function(){
     });
 
     $('.order_js').on('click', function(){
-        $('.popup-contact').fadeIn(500);
+        var service = $(this).data('service');
+        $('.popup-service').fadeOut(500);
+        $('#' + service).fadeIn(500);
     });
 
     $('.open-menu').on('click', function(){

@@ -13,10 +13,89 @@
 
 <body>
   <!-- Header -->
-  <div class="popup popup-contact">
+  <div class="popup popup-thank">
+    <span class="close-popup"></span>
+    <div class="popup-thank">
+        <h3>Спасибо за заявку</h3>
+        <p>Мы в ближайшее время с вами свяжемся</p>
+    </div>
+</div> 
+<!-- После того как форма отправляетьса на этот попап сделать так $('.popup-thank').fadeIn(500); -->
+
+<div class="popup popup-contact">
     <span class="close-popup"></span>
     <div class="popup-content">
         <h3>Оставьте Ваши контакты</h3>
+        <p>И мы свяжемся с Вами </p>
+        <form>
+            <input type="text" placeholder="Имя">
+            <input type="text" placeholder="Телефон">
+            <input type="text" placeholder="E-mail">
+            <button>Отправить</button>
+        </form>
+    </div>
+</div>
+
+<div id="service1" class="popup popup-service">
+    <span class="close-popup"></span>
+    <div class="popup-content">
+        <h3>Оставьте Ваши контакты 1</h3>
+        <p>И мы свяжемся с Вами </p>
+        <form>
+            <input type="text" placeholder="Имя">
+            <input type="text" placeholder="Телефон">
+            <input type="text" placeholder="E-mail">
+            <button>Отправить</button>
+        </form>
+    </div>
+</div>
+
+<div id="service2" class="popup popup-service">
+    <span class="close-popup"></span>
+    <div class="popup-content">
+        <h3>Оставьте Ваши контакты 2</h3>
+        <p>И мы свяжемся с Вами </p>
+        <form>
+            <input type="text" placeholder="Имя">
+            <input type="text" placeholder="Телефон">
+            <input type="text" placeholder="E-mail">
+            <button>Отправить</button>
+        </form>
+    </div>
+</div>
+
+<div id="service3" class="popup popup-service">
+    <span class="close-popup"></span>
+    <div class="popup-content">
+        <h3>Оставьте Ваши контакты 3</h3>
+        <p>И мы свяжемся с Вами </p>
+        <form>
+            <input type="text" placeholder="Имя">
+            <input type="text" placeholder="Телефон">
+            <input type="text" placeholder="E-mail">
+            <button>Отправить</button>
+        </form>
+    </div>
+</div>
+
+<div id="service4" class="popup popup-service">
+    <span class="close-popup"></span>
+    <div class="popup-content">
+        <h3>Оставьте Ваши контакты 4</h3>
+        <p>И мы свяжемся с Вами </p>
+        <form>
+            <input type="text" placeholder="Имя">
+            <input type="text" placeholder="Телефон">
+            <input type="text" placeholder="E-mail">
+            <button>Отправить</button>
+        </form>
+    </div>
+</div>
+
+<div id="service5" class="popup popup-service">
+    <span class="close-popup"></span>
+    <div class="popup-content">
+        <h3>Оставьте Ваши контакты 5</h3>
         <p>И мы свяжемся с Вами </p>
         <form>
             <input type="text" placeholder="Имя">
@@ -81,7 +160,7 @@
         <img src="img/banner-mobile-img.png" alt="">
       </div>
       <ul>
-        <li><a class="order order_js" href="javascript:void(0)">Заказать услугу</a></li>
+        <li><a data-service="service1" class="order order_js" href="javascript:void(0)">Заказать услугу</a></li>
         <li><a class="buy-dolls" href="https://in-dolls.ru/"><i class="icon-global"></i> <span>Купить куклы</span></a></li>
       </ul>
     </section>
@@ -105,7 +184,7 @@
                 <h2>Ростовые куклы ждут тебя!</h2>
                 <p>Мы уверены, что Вы хотели бы добавить  ярких красок в свой праздник.</p>
                 <ul>
-                  <li><a class="order order_js" href="javascript:void(0)">Заказать услугу</a></li>
+                  <li><a data-service="service1" class="order order_js" href="javascript:void(0)">Заказать услугу</a></li>
                   <li><a class="buy-dolls" href="https://in-dolls.ru/"><i class="icon-global"></i> <span>Купить куклы</span></a></li>
                 </ul>
               </div>
@@ -123,7 +202,7 @@
                 <h2>Ростовые куклы ждут тебя!</h2>
                 <p>Мы уверены, что Вы хотели бы добавить  ярких красок в свой праздник.</p>
                 <ul>
-                  <li><a class="order order_js" href="javascript:void(0)">Заказать услугу</a></li>
+                  <li><a data-service="service2" class="order order_js" href="javascript:void(0)">Заказать услугу</a></li>
                   <li><a class="buy-dolls" href="https://in-dolls.ru/"><i class="icon-global"></i> <span>Купить куклы</span></a></li>
                 </ul>
               </div>
@@ -141,7 +220,7 @@
                 <h2>Ростовые куклы ждут тебя!</h2>
                 <p>Мы уверены, что Вы хотели бы добавить  ярких красок в свой праздник.</p>
                 <ul>
-                  <li><a class="order order_js" href="javascript:void(0)">Заказать услугу</a></li>
+                  <li><a data-service="service3" class="order order_js" href="javascript:void(0)">Заказать услугу</a></li>
                   <li><a class="buy-dolls" href="https://in-dolls.ru/"><i class="icon-global"></i> <span>Купить куклы</span></a></li>
                 </ul>
               </div>
@@ -254,7 +333,7 @@
                     все внимание на себе.</p>
                   <ul class="sum">
                     <li><strong>22 900 <i>₽</i></strong></li>
-                    <li><a class="order_js" href="javascript:void(0)">Заказать</a></li>
+                    <li><a data-service="service1" class="order_js" href="javascript:void(0)">Заказать</a></li>
                   </ul>
                   <ul class="advantages">
                     <li><i class="icon-clapping"></i>Яркие эмоции</li>
@@ -310,7 +389,7 @@
                     все внимание на себе.</p>
                   <ul class="sum">
                     <li><strong>22 900 <i>₽</i></strong></li>
-                    <li><a class="order_js" href="javascript:void(0)">Заказать</a></li>
+                    <li><a data-service="service2" class="order_js" href="javascript:void(0)">Заказать</a></li>
                   </ul>
                   <ul class="advantages">
                     <li><i class="icon-clapping"></i>Яркие эмоции</li>
@@ -366,7 +445,7 @@
                     все внимание на себе.</p>
                   <ul class="sum">
                     <li><strong>22 900 <i>₽</i></strong></li>
-                    <li><a class="order_js" href="javascript:void(0)">Заказать</a></li>
+                    <li><a data-service="service3" class="order_js" href="javascript:void(0)">Заказать</a></li>
                   </ul>
                   <ul class="advantages">
                     <li><i class="icon-clapping"></i>Яркие эмоции</li>
@@ -422,7 +501,7 @@
                     все внимание на себе.</p>
                   <ul class="sum">
                     <li><strong>22 900 <i>₽</i></strong></li>
-                    <li><a class="order_js" href="javascript:void(0)">Заказать</a></li>
+                    <li><a data-service="service4" class="order_js" href="javascript:void(0)">Заказать</a></li>
                   </ul>
                   <ul class="advantages">
                     <li><i class="icon-clapping"></i>Яркие эмоции</li>
@@ -478,7 +557,7 @@
                     все внимание на себе.</p>
                   <ul class="sum">
                     <li><strong>22 900 <i>₽</i></strong></li>
-                    <li><a class="order_js" href="javascript:void(0)">Заказать</a></li>
+                    <li><a data-service="service5" class="order_js" href="javascript:void(0)">Заказать</a></li>
                   </ul>
                   <ul class="advantages">
                     <li><i class="icon-clapping"></i>Яркие эмоции</li>
