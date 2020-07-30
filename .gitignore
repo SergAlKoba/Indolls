@@ -1,0 +1,14 @@
+.idea/
+.vscode/
+
+build/
+node_modules/
+jpg/
+indolls-event/
+
+*.ai
+*.psd
+*.pdf
+*.log
+
+Thumbs.db
